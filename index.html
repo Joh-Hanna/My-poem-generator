@@ -7,22 +7,26 @@
     <title>My poem generator</title>
 </head>
 <body>
-    <header>
-        <h1>Welcome to my poem generator!</h1>
-    </header>
-    <main>
-        <input type="text" placeholder="Please enter a topic" autofocus required autocomplete="off" />
-        <input type="submit" />
-        <div>
-            Each flower a wilting sun <br/>
-            The death of a new day is never kind <br/>
-            Grief ain’t no song <br/>
-            No loss is this romantic
-        </div>
-    </main>
+    <div class="container">
+        <header>
+            <h1>Welcome to my poem generator!</h1>
+        </header>
+        <main>
+            <form>
+                <input type="text" placeholder="Please enter a topic..." autofocus required autocomplete="off" class="input"/>
+                <input type="submit" class="submit"/>
+            </form>
+            <div class="poem">
+                Each flower a wilting sun <br/>
+                The death of a new day is never kind <br/>
+                Grief ain’t no song <br/>
+                No loss is this romantic
+            </div>
+        </main>
     
 
-    <footer>This AI project was built by <a href="https://github.com/Joh-Hanna" target="_blank">Joh-Hannna</a>, is open-sourced on <a href="https://github.com/Joh-Hanna/My-poem-generator" target="_blank">GitHub</a> and hosted an <a href="https://joh-hannas-poem-generator.netlify.app/" target="_blank">Netlify</a>.</footer>
+        <footer>This AI project was built by <a href="https://github.com/Joh-Hanna" target="_blank">Joh-Hannna</a>, is open-sourced on <a href="https://github.com/Joh-Hanna/My-poem-generator" target="_blank">GitHub</a> and hosted an <a href="https://joh-hannas-poem-generator.netlify.app/" target="_blank">Netlify</a>.</footer>
+    </div>
     <link rel="stylesheet" href="src/style.css">
 </body>
 </html>
