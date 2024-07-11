@@ -1,7 +1,15 @@
 body {
-    background: plum;
+    background: #d0cff6;
 }
 
 h1 {
     text-align: center;
+}
+footer {
+    text-align: center;
+    opacity: 0.7;
+}
+a {
+    color: rgb(110, 14, 244);
+    text-decoration: none;
 }
