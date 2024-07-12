@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <title>My poem generator</title>
     
 </head>
@@ -12,17 +13,14 @@
     <div class="container">
         <header>
             <h1 id="heading">Welcome to my poem generator!</h1>
-        </header>
+        </header> 
         <main>
             <form id="generate-poem">
-                <input type="text" placeholder="Please enter a topic..." autofocus required autocomplete="off" class="input"/>
+                <input type="text" placeholder="Please enter a topic..." autofocus required autocomplete="off" class="input" id="user-input"/>
                 <input type="submit" class="submit"/>
             </form>
             <div class="poem" id="poem">
-                Each flower a wilting sun <br/>
-                The death of a new day is never kind <br/>
-                Grief ain’t no song <br/>
-                No loss is this romantic
+                
             </div>
         </main>
     

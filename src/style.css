@@ -39,11 +39,11 @@ form {
 .poem {
     font-size: 25px;
     text-align: center;
-    line-height: 1.5;
+    line-height: 2;
     border:rgb(122, 33, 246) 2px solid;
     border-radius: 15px;
     box-shadow: 5px 5px 5px silver;
-    padding: 20px;
+    padding: 25px;
    
 }
 footer {
